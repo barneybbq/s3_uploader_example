@@ -1,6 +1,6 @@
 jQuery(function() {
 
-  var host = 'http://localhost:3000';
+  var host = '<%= ENV['APP_URL'] %>';
 
   var params = decodeURIComponent(location.href).split('?')[1].split('&');
   var s3BucketUrl;

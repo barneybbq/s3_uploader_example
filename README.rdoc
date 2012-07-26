@@ -28,13 +28,10 @@ After a file is uploaded a post ajax request is made to create a resource for th
 3. Migrate database
     bundle exec rake db:migrate
 
-4. Set your server host in app/assets/javascripts/s3_uploader/s3_uploader.js:
-    var host = 'http://yourdomain.com';
-
-5. Deploy uploader javascript and form to s3
+4. Deploy uploader javascript and form to s3
     bundle exec rake uploader:deploy
 
-6. Run or deploy the app :)
+5. Run or deploy the app :)
 
 
 == Notes
