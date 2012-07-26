@@ -23,13 +23,10 @@ After a file is uploaded a post ajax request is made to create a resource for th
 1. Install gems
     bundle install
 
-2. Migrate database
-    bundle exec rake db:migrate
+2. Copy <tt>.env.example</tt> to <tt>.env</tt> and update with your settings.
 
-3. Make sure the following environment variables are set:
-    ENV['S3_UPLOADER_BUCKET']
-    ENV['S3_UPLOADER_ACCESS_KEY']
-    ENV['S3_UPLOADER_SECRET_ACCESS_KEY']
+3. Migrate database
+    bundle exec rake db:migrate
 
 4. Set your server host in app/assets/javascripts/s3_uploader/s3_uploader.js:
     var host = 'http://yourdomain.com';

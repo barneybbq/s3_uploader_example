@@ -6,6 +6,7 @@ gem 'aws-s3', :require => 'aws/s3'
 
 group :development do
   gem 'sqlite3'
+  gem 'dotenv'
 end
 
 group :production do
