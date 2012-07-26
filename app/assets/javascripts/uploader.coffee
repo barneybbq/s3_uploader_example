@@ -1,1 +1,1 @@
-#= require_tree ./s3_uploader
+#= require_tree ./uploader
