@@ -1,0 +1,77 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+*/
+
+/* line 5, ../../app/assets/stylesheets/uploads.css.scss */
+body {
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 12px;
+  color: #666666;
+  margin: 0;
+  padding: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 520px;
+  padding-top: 60px;
+}
+
+/* line 18, ../../app/assets/stylesheets/uploads.css.scss */
+h1 {
+  font-size: 1.6em;
+}
+
+/* line 23, ../../app/assets/stylesheets/uploads.css.scss */
+#uploader {
+  width: 500px;
+  border: 1px solid #aaa;
+  min-height: 300px;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+/* line 32, ../../app/assets/stylesheets/uploads.css.scss */
+progress {
+  width: 200px;
+}
+
+/* line 36, ../../app/assets/stylesheets/uploads.css.scss */
+#drag_text {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  width: 500px;
+  padding-top: 100px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  color: #ddd;
+  font-style: italic;
+}
+
+/* line 50, ../../app/assets/stylesheets/uploads.css.scss */
+#uploading_files, #file_upload {
+  position: relative;
+  z-index: 1;
+}
+
+/* line 55, ../../app/assets/stylesheets/uploads.css.scss */
+#drag_remark {
+  font-size: 0.5em;
+}
+
+/* line 59, ../../app/assets/stylesheets/uploads.css.scss */
+.remove_link {
+  color: red;
+  text-decoration: none;
+}
