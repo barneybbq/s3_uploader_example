@@ -15,7 +15,7 @@ namespace :uploader do
     files = [
       html,
       asset('uploader.js', 'application/javascript'),
-      asset('uploader.css', 'text/css')
+      #asset('uploader.css', 'text/css')
     ]
 
     files.each do |asset|
